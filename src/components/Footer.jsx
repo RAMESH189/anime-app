@@ -12,8 +12,15 @@ function Footer() {
         <Link href="https://www.linkedin.com/in/ramesh-pr/" target="_blank">
           <IoLogoLinkedin size={30} />
         </Link>
-        <IoLogoInstagram size={30} />
-        <IoLogoGithub size={30} />
+        <Link
+          href="https://www.instagram.com/_ramesh_rajendran_/"
+          target="_blank"
+        >
+          <IoLogoInstagram size={30} />
+        </Link>
+        <Link href="https://github.com/RAMESH189/anime-app" target="_blank">
+          <IoLogoGithub size={30} />
+        </Link>
       </div>
     </footer>
   );
