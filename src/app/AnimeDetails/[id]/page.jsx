@@ -19,7 +19,7 @@ const AnimeDetails = async ({ params }) => {
           alt={anime.name}
           className="rounded-lg border border-black dark:border-white p-4 shadow-md"
         />
-        <div className="p-4">
+        <div className="p-4 flex flex-col items-center md:items-start">
           <h2 className="mb-4 font-bold text-xl">Name: {anime.name}</h2>
           <p className="mb-4">Released on: {anime.released_on}</p>
           <p className="mb-4 font-bold">No of episodes: {anime.episodes}</p>
